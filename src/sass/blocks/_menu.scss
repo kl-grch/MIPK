@@ -1,0 +1,22 @@
+.menu {
+    &__nav {
+        padding: 0 29px;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style-type: none;
+        }
+        &-link {
+            a {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                text-transform: uppercase;
+                color: $color-blue;
+            }
+        }
+    }
+}

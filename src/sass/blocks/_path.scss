@@ -1,0 +1,15 @@
+.path {
+    &__wrapper {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #505D68;
+        margin-left: 10px;
+        a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            color: $color-grey;    
+        }
+    }
+}

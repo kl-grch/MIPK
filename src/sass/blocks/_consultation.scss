@@ -1,0 +1,13 @@
+
+.consultation {
+    .title {
+        margin-top: 279px;
+    }    
+    &__wrapper {
+        margin-top: 35px;
+        img {
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+}

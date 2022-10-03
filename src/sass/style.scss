@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+@import 'base/variables';
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/path';
+@import 'blocks/title';
+@import 'blocks/retraining';
+@import 'blocks/programs';
+@import 'blocks/btns';
+@import 'blocks/consultation';
+@import 'blocks/advantage';
+@import 'blocks/map.scss';
